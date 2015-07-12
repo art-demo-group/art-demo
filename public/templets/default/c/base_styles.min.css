@@ -1929,7 +1929,8 @@ form[class^="search_"] {
 }
 .wordmark {
 	padding: 30px 0;
-	background: #0E4526 url(../img/bg.jpg) repeat-x 0 top;
+	/*background: rgb(95,94,91) url(../img/bg.jpg) repeat-x 0 top;*/
+	background-color: rgb(95,94,91);
 	border-bottom: 1px solid #232D1F;
 }
 .wordmark a {
