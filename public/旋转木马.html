@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>旋转木马 幻灯片开发</title>
+<link type="text/css" rel="stylesheet" href="carousel.css">
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="carousel.js"></script>
+</head>
+<body style="padding:0px;">
+qq:377746756
+<div style="width:1280px;height:10px;border:1px solid red;"></div>
+<div class="J_Poster poster-main" style="width:1280px;border:1px solid red" data-setting='{
+                                            "width":1280,
+                                            "height":270,
+                                            "posterWidth":1280,
+                                            "posterHeight":270,
+                                            "scale":1,
+                                            "autoPlay":true,
+                                            "delay":5000,
+                                            "speed":3000
+                							}'>
+	<div class="poster-btn poster-prev-btn"></div>
+    <ul class="poster-list">
+    	<li class="poster-item"><a href="#"><img style="background-size: cover;background-position: 50% 50%;" src="1.jpg" width="100%" height="270px"></a></li>
+        <li class="poster-item"><a href="#"><img src="2.jpg" width="100%" height="270px"></a></li>
+        <li class="poster-item"><a href="#"><img src="3.jpg" width="100%" height="270px"></a></li>
+        <li class="poster-item"><a href="#"><img src="4.jpg" width="100%" height="270px"></a></li>
+        <li class="poster-item"><a href="#"><img src="5.jpg" width="100%" height="270px"></a></li>
+        <li class="poster-item"><a href="#"><img src="2.jpg" width="100%" height="270px"></a></li>
+        <li class="poster-item"><a href="#"><img src="3.jpg" width="100%" height="270px"></a></li>
+        <li class="poster-item"><a href="#"><img src="4.jpg" width="100%" height="270px"></a></li>
+        <li class="poster-item"><a href="#"><img src="5.jpg" width="100%" height="270px"></a></li>
+    </ul>
+    <div class="poster-btn poster-next-btn"></div>
+    <div class="word">dhjfhdjh<p>测试绝对定位使用</p></div>
+</div>
+<p style="height:250px;"></p>
+<div class="J_Poster poster-main" data-setting='{
+                                            "width":800,
+                                            "height":270,
+                                            "posterWidth":640,
+                                            "posterHeight":270,
+                                            "scale":0.8,
+                                            "autoPlay":true,
+                                            "delay":5000,
+                                            "speed":2000,
+                                            "vericalAlign":"top"
+											}'>
+	<div class="poster-btn poster-prev-btn"></div>
+    <ul class="poster-list">
+    	<li class="poster-item"><a href="#"><img src="1.jpg" width="100%" height="100%"></a></li>
+        <li class="poster-item"><a href="#"><img src="2.jpg" width="100%" height="100%"></a></li>
+        <li class="poster-item"><a href="#"><img src="3.jpg" width="100%" height="100%"></a></li>
+        <li class="poster-item"><a href="#"><img src="4.jpg" width="100%" height="100%"></a></li>
+    </ul>
+    <div class="poster-btn poster-next-btn"></div>
+</div>
+<script>
+
+$(function(){
+	Carousel.init($(".J_Poster"));
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
