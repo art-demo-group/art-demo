@@ -5,17 +5,17 @@ function init(){
 	getVisitNum('fwnums');//访问计数
 	
 	if(!$(".bm-con")[0]){
-	document.oncontextmenu=function(e){return false;};
-    document.onselectstart=function(e){return false;};
+	document.oncontextmenu=function(e){return true;};
+    document.onselectstart=function(e){return true;};
 	
 	$(document).bind("contextmenu", function(e) {
-    return false;
+    return true;
     });
 	
 	function key() {
 		if(event.shiftKey||event.altKey||event.ctrlKey){
 			window.close();d
-			return false;
+			return true;
 			}
          
       }
