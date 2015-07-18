@@ -6,7 +6,7 @@ function picinit(){
 	var _con=$("<div/>").addClass("h-con").html("<ul>LOADING...</ul><ul></ul><ul></ul><ul style='margin-right:0'></ul><div class='clear'></div>");
 	var _ul=_con.find("ul");
 	_p.html("").append(_con);
-	$.getJSON("/new/plus/liupic.php", {
+	$.getJSON("/works", {
 			"actype": "getpicdata",
 			"typeone":_typeone,
 			"tidh": parseInt(_id),
